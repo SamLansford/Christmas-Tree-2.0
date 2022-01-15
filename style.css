@@ -1,0 +1,10 @@
+body {
+  background-color: #00509d;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.christmas {
+  position: relative;
+}
