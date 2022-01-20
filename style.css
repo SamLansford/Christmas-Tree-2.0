@@ -41,3 +41,47 @@ body {
   left:-115px;
   z-index:-1;
 }
+
+.lights {
+  position: absolute;
+  
+}
+
+.light1 {
+   position: absolute;
+   width: 15px; 
+   height: 15px;
+   border-radius: 10px 150px 30px 150px;
+}
+
+.light1 {
+  background-color: #ff595e;
+  top:-100px;
+  left:-35px;
+  transform: rotate(40deg);
+  box-shadow: 1px 1px 15px #faf3dd;
+}
+
+.light2 {
+  position: absolute;
+  background-color: #ffca3a;
+  top:-95px;
+  left:-10px;
+  box-shadow: 1px 1px 15px #faf3dd;
+  width: 15px; 
+  height: 15px;
+  border-radius: 10px 150px 30px 150px;
+  transform: rotate(40deg);
+}
+
+.light3 {
+  position: absolute;
+  background-color: #6a4c93;
+  top:-105px;
+  left:15px;
+  box-shadow: 1px 1px 15px #faf3dd;
+  width: 15px; 
+  height: 15px;
+  border-radius: 10px 150px 30px 150px;
+  transform: rotate(40deg);
+}
