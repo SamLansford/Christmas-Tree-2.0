@@ -85,3 +85,87 @@ body {
   border-radius: 10px 150px 30px 150px;
   transform: rotate(40deg);
 }
+
+.light4 {
+  position: absolute;
+  background-color: #1982c4;
+  top:-118px;
+  left:35px;
+  box-shadow: 1px 1px 15px #faf3dd;
+  width: 15px; 
+  height: 15px;
+  border-radius: 10px 150px 30px 150px;
+  transform: rotate(40deg);
+}
+
+.light5 {
+  position: absolute;
+  background-color: #1982c4;
+  top:12px;
+  left:-55px;
+  box-shadow: 1px 1px 15px #faf3dd;
+  width: 15px; 
+  height: 15px;
+  border-radius: 10px 150px 30px 150px;
+  transform: rotate(40deg);
+}
+
+.light6 {
+  position: absolute;
+  background-color: #8ac926;
+  top:15px;
+  left:-25px;
+  box-shadow: 1px 1px 15px #faf3dd;
+  width: 15px; 
+  height: 15px;
+  border-radius: 10px 150px 30px 150px;
+  transform: rotate(40deg);
+}
+
+.light7 {
+  position: absolute;
+  background-color: #ff595e;
+  top:10px;
+  left:2px;
+  box-shadow: 1px 1px 15px #faf3dd;
+  width: 15px; 
+  height: 15px;
+  border-radius: 10px 150px 30px 150px;
+  transform: rotate(40deg);
+}
+
+.light8 {
+  position: absolute;
+  background-color: #ffca3a;
+  top:-2px;
+  left:27px;
+  box-shadow: 1px 1px 15px #faf3dd;
+  width: 15px; 
+  height: 15px;
+  border-radius: 10px 150px 30px 150px;
+  transform: rotate(40deg);
+}
+
+.light9 {
+  position: absolute;
+  background-color: #9e0059;
+  top:-17px;
+  left:50px;
+  box-shadow: 1px 1px 15px #faf3dd;
+  width: 15px; 
+  height: 15px;
+  border-radius: 10px 150px 30px 150px;
+  transform: rotate(40deg);
+}
+
+.light10 {
+  position: absolute;
+  background-color: #4361ee;
+  top:-40px;
+  left:68px;
+  box-shadow: 1px 1px 15px #faf3dd;
+  width: 15px; 
+  height: 15px;
+  border-radius: 10px 150px 30px 150px;
+  transform: rotate(40deg);
+}
