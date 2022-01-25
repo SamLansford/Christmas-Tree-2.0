@@ -297,3 +297,34 @@ body {
   position: absolute;
   left:15px;
 }
+
+.gift3 {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  background-color: #7678ed;
+  top:150px;
+  left:-85px;
+  box-shadow: inset -8px 0 0 rgba(0,0,0,0.07);
+  
+}
+
+.gift3:before {
+  content:"";
+  position: absolute;
+  width:50px;
+  height:10px;
+  background-color: #7678ed;
+  left:-5px;
+  box-shadow: inset -8px -4px 0 rgba(0,0,0,0.07);
+  
+}
+
+.gift3:after {
+  content:"";
+  background-color: #f7b801;
+  width: 7px;
+  height:30px;
+  position: absolute;
+  left:15px;
+}
