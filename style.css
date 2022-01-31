@@ -424,3 +424,25 @@ body {
   top: 15px;
   left: -15px;
 }
+
+.balls::before {
+  content:"";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffc857;
+  top: 35px;
+  left: -15px;
+}
+
+.balls::after {
+  content:"";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff8c57;
+  top: 20px;
+  left: 45px;
+}
