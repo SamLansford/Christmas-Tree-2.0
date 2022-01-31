@@ -31,6 +31,18 @@ body {
   left:-75px;
 }
 
+.tree:after {
+  content:"";
+  position: relative;
+  width: 0;
+  height: 0;
+  border-right: 90px solid transparent;
+  border-bottom: 270px solid #0e9594;
+  border-bottom-right-radius: 30px;
+  top:-268px;
+  left:19px;
+}
+
 .shadow {
   background-color: rgba(0,0,0,0.07);
   position: absolute;
@@ -40,6 +52,35 @@ body {
   top:170px;
   left:-115px;
   z-index:-1;
+}
+
+.chain {
+  width: 85px;
+  height: 85px;
+  border: solid 3px #333;
+  border-radius: 50%;
+  top: -185px; 
+  left: -35px; 
+  position: absolute;
+  transform: rotate3d(8, 0.1, -5, 75deg); 
+  box-sizing: border-box;
+  backface-visibility: visible !important;
+  z-index:5;
+}
+
+.chain2 {
+  width: 145px;
+  height: 135px;
+  border: solid 3px #333;
+  border-radius: 50%;
+  top: -115px; 
+  left: -65px; 
+  position: absolute;
+  transform: rotate3d(8, 0.1, -5, 75deg); 
+  box-sizing: border-box;
+  backface-visibility: visible !important;
+  z-index:5;
+  
 }
 
 .lights {
@@ -183,7 +224,6 @@ body {
   top:-190px;
   left:-9px;
     }
-
 
 .star:before {
       border-bottom: 20px solid #f9dc5c;
@@ -373,4 +413,14 @@ body {
   transform: skew(-15deg, -20deg);
   left:15px;
   top:-8px;
+}
+
+.balls {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #db3a34;
+  top: 15px;
+  left: -15px;
 }
