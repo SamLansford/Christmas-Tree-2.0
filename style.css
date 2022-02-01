@@ -446,3 +446,13 @@ body {
   top: 20px;
   left: 45px;
 }
+
+.ball1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #cdff57;
+  top: -90px;
+  left: 25px;
+}
