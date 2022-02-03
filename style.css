@@ -456,3 +456,7 @@ body {
   top: -90px;
   left: 25px;
 }
+
+.light1, .light2, .light3, .light4, .light5, .light6, .light7, .light8, .light9, .light10 {
+animation: flash 10s infinite;
+}
