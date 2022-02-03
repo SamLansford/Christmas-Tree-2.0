@@ -460,3 +460,10 @@ body {
 .light1, .light2, .light3, .light4, .light5, .light6, .light7, .light8, .light9, .light10 {
 animation: flash 10s infinite;
 }
+
+@keyframes flash {
+  20%, 24%, 55% {box-shadow: none;}
+ 0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+ box-shadow: 0 0 5px #f5de93, 0 0 15px #f5de93, 0 0 20px #f5de93, 0 0 40px #f5de93, 0 0 60px #decea4, 0 0 10px #d6c0a5, 0 0 98px #ff0000;
+  }
+}
